@@ -1,0 +1,40 @@
+{
+  "name": "rest-user-friends-manager",
+  "version": "1.0.0",
+  "description": "Node.js + express + MySQL REST application for maintaining Users friends connections",
+  "main": "server.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test --recursive",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "friends",
+    "manager",
+    "nodejs"
+  ],
+  "author": "Grzegorz Krzemiński",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "mysql": "^2.10.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "sinon": "^1.17.3"
+  },
+  "apidoc" : {
+    "title": "API documentation",
+    "order": [
+      "GetUserFriendsList",
+      "MakeNewFriendsConnection",
+      "DestroyFriendsConnection"
+    ],
+    "template": {
+      "forceLanguage": "en",
+      "withCompare": false
+    }
+  }
+}
