@@ -23,6 +23,7 @@ Before running nodejs-rest-user-friends-manager you'll have to make some prepara
     ALTER TABLE `user_friends`
         ADD UNIQUE KEY `friends` (`id1`,`id2`);
     ```
+
 2. Save your database configuration data at confs/dbinfo.js
    
     ```js
@@ -44,7 +45,7 @@ Before running nodejs-rest-user-friends-manager you'll have to make some prepara
 
 ## Installing
 
-This command will install all (production and development) dependencies:
+Installing all (production and development) dependencies:
 
     $ npm install
 
