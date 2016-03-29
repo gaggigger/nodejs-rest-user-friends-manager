@@ -42,17 +42,31 @@ Before running nodejs-rest-user-friends-manager you'll have to make some prepara
     }
     ```
 
-## Running nodejs-rest-user-friends-manager server
+## Installing
 
-### Basic
+This command will install all (production and development) dependencies:
 
-1. Running in development mode from npm:
+    ```
+    $ npm install
+    ```
+
+Installing only production dependencies:
+
+    ```
+    $ npm install --production
+    ```
+
+## Usage
+
+### Basic run
+
+1. Running in development mode:
    
     ```
     $ npm start
     ```
 
-2. Running in production mode from npm:
+2. Running in production mode:
 
     ```
     $ npm start --production
@@ -67,8 +81,14 @@ Before running nodejs-rest-user-friends-manager you'll have to make some prepara
     $ npm start
     ```
    
-2. Unix shell
+2. Unix `shell`
 
     ```
     $ PORT=1234 node start
+    ```
+
+### Running tests
+
+    ```
+    $ npm test
     ```
