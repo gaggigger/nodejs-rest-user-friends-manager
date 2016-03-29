@@ -12,7 +12,12 @@ Before running nodejs-rest-user-friends-manager you'll have to make some adjustm
 
 1. In confs/dbinfo.js
 
-    host: 'localhost',
-    user: 'root',
-    password : '',
-    database : 'test_user_friends'
+```js
+    module.exports = {
+        MySQL: {
+            host: 'localhost',
+            user: 'root',
+            password : '',
+            database : 'test_user_friends'
+        }
+    }
