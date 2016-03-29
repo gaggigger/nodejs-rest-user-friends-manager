@@ -48,9 +48,9 @@ Before running nodejs-rest-user-friends-manager you'll have to make some prepara
 
 1. Running in development mode from npm:
 
-   $ npm start
+    $ npm start
 
 2. Running in production mode from npm:
 
-   $ npm start --production
+    $ npm start --production
    
