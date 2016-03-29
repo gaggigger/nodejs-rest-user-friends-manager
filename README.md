@@ -89,6 +89,4 @@ Installing only production dependencies:
 
 ### Running tests
 
-    ```
     $ npm test
-    ```
