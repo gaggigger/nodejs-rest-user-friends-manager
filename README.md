@@ -46,15 +46,11 @@ Before running nodejs-rest-user-friends-manager you'll have to make some prepara
 
 This command will install all (production and development) dependencies:
 
-    ```
     $ npm install
-    ```
 
 Installing only production dependencies:
 
-    ```
     $ npm install --production
-    ```
 
 ## Usage
 
