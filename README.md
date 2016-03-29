@@ -13,6 +13,7 @@ For running this program you'll have to have:
 Before running nodejs-rest-user-friends-manager you'll have to make some preparations:
 
 1. Make sure you have created **user_friends** table
+   
     ```mysql
     CREATE TABLE `user_friends` (
         `id1` int(11) NOT NULL,
@@ -23,6 +24,7 @@ Before running nodejs-rest-user-friends-manager you'll have to make some prepara
         ADD UNIQUE KEY `friends` (`id1`,`id2`);
     ```
 2. Save your database configuration data at confs/dbinfo.js 
+   
     ```js
     module.exports = {
         MySQL: {
