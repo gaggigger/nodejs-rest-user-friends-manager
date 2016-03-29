@@ -12,7 +12,7 @@ For running this server you'll have to have:
 
 Before running nodejs-rest-user-friends-manager you'll have to make some preparations:
 
-1. Make sure you have created **user_friends** table
+1. Make sure you have created `user_friends` table
    
     ```mysql
     CREATE TABLE `user_friends` (
@@ -47,10 +47,14 @@ Before running nodejs-rest-user-friends-manager you'll have to make some prepara
 ### Basic
 
 1. Running in development mode from npm:
-
+   
+    ```
     $ npm start
+    ```
 
 2. Running in production mode from npm:
 
+    ```
     $ npm start --production
+    ````
    
