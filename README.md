@@ -58,3 +58,17 @@ Before running nodejs-rest-user-friends-manager you'll have to make some prepara
     $ npm start --production
     ````
    
+### Running on port other than 8081
+
+1. Windows `cmd`
+
+    ```
+    $ set PORT=1234
+    $ npm start
+    ```
+   
+2. Unix shell
+
+    ```
+    $ PORT=1234 node start
+    ```
