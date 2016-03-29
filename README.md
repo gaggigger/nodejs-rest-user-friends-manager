@@ -9,8 +9,10 @@ installed.
 
 ## Configuration
 Before running nodejs-rest-user-friends-manager you'll have to make some adjustments in configuration files.
+
 1. In confs/dbinfo.js
-	host: 'localhost',
-	user: 'root',
-	password : '',
-	database : 'test_user_friends'
+
+    host: 'localhost',
+    user: 'root',
+    password : '',
+    database : 'test_user_friends'
